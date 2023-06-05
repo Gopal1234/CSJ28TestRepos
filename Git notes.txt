@@ -1,0 +1,71 @@
+1.git is created by Linus Torvald
+the same guy who created Linux Karnel
+
+2.So just like Linux karnel is open source
+that means anyone can download the copy of
+of Linux Karnel and you can add your own
+features and again we can uplaod that
+
+3.Think about  millions of programmer
+working   for a software from differnt part of the world
+But if you want make them all in single platform , is is easy?
+no it is very difficult task to intergrate them in single platform but by using this git .
+4.git is distributed version control system
+
+There is one term is there called SCM(softaware Configuration Management or Source Code Management)
+
+Consider you have created one application and you given name as snapshot version
+after few month you thought to add some more features and increase the version of your application as 1.1 version
+like that you will increase with 1.2 ..1.3
+
+No in the software industry the maintaince is one of the major and important part of software development life cycle
+because as per business requirement client can use any version 
+
+Generaly to maintain those version earlier  we used(centralized version control system) SVN server which are connected with multiple clients
+Programmers can create their differnt version of application and can able to push their source code to that server
+but what will happen if the central server will be shut down due to some error
+what will happen if your all code will got deleted
+what will happen if you want to need to work in flight or remote area where you will not get your network connection
+
+
+But now with the help of the distributed version control system we can create a copy of our repository
+in each and every client machine , so that we can work from anywhere without ineternet connection too.
+we can manage all the version of our source code in local reposotory which is same as central repository
+and once will get connection , we can push local repositories to central repositories
+
+GIT uses distributed version control system
+
+
+
+git uses one approach called Trunk based developement
+
+that means 
+branch based development
+
+suppose you are are working for bigger project
+
+    we have masterfile
+              |
+              1.1  commoited
+               |
+             1.2 commited
+              |
+             4.5
+               
+              new bracnch/|
+                    5.0 
+
+
+
+but now you need to add some more features called 5.0 , and parallely you can increase thye version of master branch
+ then you can create a new branch and after completing that brach you can push or merger with master branch
+   
+              
+
+
+
+
+
+
+
+ 

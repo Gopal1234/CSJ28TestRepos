@@ -1,0 +1,49 @@
+The first default branch is master
+
+What is Branch?
+
+branch allows us to work on differnt versionsn on the same parallel
+
+we can work one multiple braches
+which are independent from each other
+
+we can decide to incorporate or marge our changes into other branches
+
+
+
+How to implement brach
+head pointer point to master branch
+
+
+to see your defualt branch and head pointer
+you can type the following command
+git log --all --decorate --online -graph
+
+
+or else you can create alias
+alias graph="git log --all --decorate --online -graph
+"
+
+
+now if you will type only
+
+graph
+
+
+
+Now create branch 
+
+git branch SDN
+git branch auth
+git branch ---to diaplay all branches
+
+
+work on new branches
+initilay head is pointing to the master bracnch but if you will points to the newly created branch 
+then,
+git checkout SDN
+then if you will see 
+graph
+
+the check status
+git status

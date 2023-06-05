@@ -1,0 +1,15 @@
+1.create GitHub account
+
+2.start a project ==create a repository
+
+
+3.Start eclipse
+
+4. Goto Perspective -> Git Repositories 
+-> add and clone repositories
+
+5. create a project in eclipse
+6. do right click on project -->Team->share git repositories
+7.commit and push the project to the repo
+8.commit and push every change to repositoy
+
